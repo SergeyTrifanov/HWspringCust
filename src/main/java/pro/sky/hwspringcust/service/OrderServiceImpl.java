@@ -1,9 +1,10 @@
 package pro.sky.hwspringcust.service;
 
+import org.springframework.stereotype.Service;
 import pro.sky.hwspringcust.component.Cart;
 
 import java.util.List;
-
+@Service
 public class OrderServiceImpl implements OrderService {
 
     private final Cart cart;
